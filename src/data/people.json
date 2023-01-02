@@ -1,0 +1,67 @@
+[
+	{
+		"key":"malgeehewitt",
+		"name":"Mark Algee-Hewitt",
+		"title": "Director, Stanford Literary Lab",
+		"bio": "Mark Algee-Hewitt's research focuses on the eighteenth and early nineteenth centuries in England and Germany and seeks to combine literary criticism with digital and quantitative analyses of literary texts. In particular he is interested in the history of aesthetic theory and the development and transmission of aesthetic and philosophic concepts during the Enlightenment and Romantic periods. He is also interested in the relationship between aesthetic theory and the poetry of the long eighteenth century.  Although his primary background is in English literature, he also has a degree in computer science. As the director of the Stanford Literary Lab, he is working to bring his interests in quantitative analysis, digital humanities and eighteenth-century literature to bear on a number of new collaborative projects.",
+		"photo":"/assets/images/people/malgeehe.jpg"
+	},
+	{
+		"key":"sallison",
+		"name":"Sarah Allison"
+	},
+	{
+		"key":"mbronstein",
+		"name":"Michaela Bronstein",
+		"bio": "",
+		"photo":"/assets/images/people/bronstein.jpg"
+	},
+	{
+		"key":"adroge",
+		"name":"Abigail Droge",
+		"bio": "",
+		"photo":""
+	},
+	{
+		"key":"efredner",
+		"name":"Erik Fredner",
+		"bio": "",
+		"photo":""
+	},
+	{
+		"key":"rheuser",
+		"name":"Ryan Heuser",
+		"bio": "",
+		"photo":""
+	},
+	{
+		"key":"mjockers",
+		"name":"Matthew Jockers"
+	},
+	{
+		"key":"amanshel",
+		"name":"Xander Manshel"
+	},
+	{
+		"key":"fmoretti",
+		"name":"Franco Moretti"
+	},
+	{
+		"key":"nnomura",
+		"name":"Nichole Nomura",
+		"bio": "",
+		"photo":""
+	},
+	{
+		"key":"jporter",
+		"name":"J.D. Porter"
+	},
+	{
+		"key":"hwalser",
+		"name":"Hannah Walser"
+	},
+	{
+		"key":"mwitmore",
+		"name":"Michael Witmore"
+	}
+]

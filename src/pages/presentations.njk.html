@@ -1,0 +1,24 @@
+---
+layout: base
+permalink: /presentations/
+eleventyNavigation:
+  key: Presentations
+  order: 7
+pagination:
+  data: collections.presentations
+  size: 10
+  alias: presentations
+---
+{%- set comma = joiner(", ") -%}
+
+<h2>Presentations</h2>
+
+  {%- for post in collections.presentations | reverse -%}
+
+      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+
+<p><em>{{ post.date | postDate}}</em></p>
+      {% if post.data.teaser %}
+        <p>{{ post.data.teaser }}</p>
+      {% endif %} 
+  {%- endfor -%}
