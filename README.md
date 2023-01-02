@@ -36,21 +36,25 @@ Project pages can have extensive prose in the content area below the frontmatter
 
 If the project has the pamphlet, all the metadata in the pamphlet section should be filled out.
 
-Here's an example of frontmatter for a project with a pamphlet:
+Here's an example of frontmatter for an archived project with a pamphlet:
 
     ---
-    key: 'popularity-prestige'
-    permalink: /projects/popularity-prestige/
-    title: "Popularity/Prestige"
-    image: '/assets/images/popularity-prestige.jpg'
-    members: [jporter]
+    key: 'example-with-pamphlet'
+    permalink: /projects/example-with-pamphlet/
+    title: "Example Project with a Pamphlet"
+    image: '/assets/images/example-with-pamphlet.jpg'
+    members: [malgeehe, adroge, efredner, rheuser, amanshel, nnomura]
+	collaborators: [jporter, hwalser]
+	date_updated: 2023-01-01
+	start_date: 2018-09-01
+	end_date: 2023-01-01
     status: 'archive'
-    shortdesc: "Popularity-prestige short description here"
-    longdesc: "Popularity-prestige long description here. Note how it is longer than the short description."
+    shortdesc: "Example with pamphlet short description here."
+    longdesc: "Example with pamphlet long description here. Note how it is longer than the short description."
     pamphlet:
-      p_title: "Popularity/Prestige"
-      p_image: "/assets/images/p17.png"
-      p_pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet17.pdf"
-      p_pubdate: 2018-09-01
-      p_prose: "If canonicity means escaping obscurity, we need a model of the canon that can accommodate multiple methods of being remembered."
+      p_title: "Pamphlet Example"
+      p_image: "/assets/images/p99.png"
+      p_pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet99.pdf"
+      p_pubdate: 2019-09-01
+      p_prose: "This pamphlet explores the phenomenon of examples in literary history."
 ---
