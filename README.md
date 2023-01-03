@@ -1,5 +1,12 @@
 # LitLab.stanford.edu guide
 
+## Running the site locally
+Make sure you have downloaded and installed [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). 
+
+Clone or download the repo to your own computer. (If you want to add new content to the site, you should probably clone the repo so you can use a pull request to move the new files over to the site.)
+
+Change into the directory with the repo and run `npm install` to install all the Node.js dependencies. Then run `npm run build`. Finally, run `npx @11ty/eleventy --serve` then go to *http://localhost:8080* in your browser to see the site.
+
 ## How the site works
 
 In the big picture, all the site content -- project descriptions, Techne posts, pamphlets, information about Lab members -- exists as a series of text files, mostly using [markdown](https://www.markdownguide.org/basic-syntax/) syntax, which get processed through a set of templates to create the website. To update the site contents, you create new markdown files or update existing ones in the *src* directory; you can also add images or other files and reference them in your Markdown files.
@@ -7,7 +14,6 @@ In the big picture, all the site content -- project descriptions, Techne posts, 
 The one exception is the information about Lab members, which is managed in a JSON file at *src/data/LabPeople.json*.
 
 We'll go through the site one content type at a time.
-
 
 ## Content
 
