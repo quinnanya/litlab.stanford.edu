@@ -22,6 +22,12 @@
 		"email":"sallison@loyno.edu"
 	},
 	{
+		"key":"ealvarado",
+		"name":"Ena Alvarado"
+	},
+	
+	
+	{
 		"key": "jbender",
 		"name": "John Bender",
 		"email": "bender@stanford.edu",
@@ -44,6 +50,10 @@
 		"name":"Ryan Heuser"
 	},
 	{
+		"key":"aisaacs",
+		"name":"Asha Isaacs"
+	},
+	{
 		"key":"mjockers",
 		"name":"Matthew Jockers"
 	},
@@ -58,6 +68,10 @@
 	{
 		"key":"amanshel",
 		"name":"Xander Manshel"
+	},
+	{
+		"key":"dmcclure",
+		"name":"David McClure"
 	},
 	{
 		"key":"jmonaco",
@@ -92,6 +106,10 @@
 		"email":"ajsherm@stanford.edu",
 		"bio": "",
 		"photo":""
+	},
+	{
+		"key":"sthomas",
+		"name":"Sarah Thomas"
 	},
 	{
 		"key":"cthong",
