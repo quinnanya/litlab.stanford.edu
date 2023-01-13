@@ -1,5 +1,5 @@
 ---
-key: 'quantitativeformalism'
+key: 'quantitative-formalism'
 permalink: /projects/quantitative-formalism/
 title: "Quantitative Formalism"
 image: /assets/images/quantitative-formalism.jpg

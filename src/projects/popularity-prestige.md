@@ -1,5 +1,5 @@
 ---
-key: 'popularityprestige'
+key: 'popularity-prestige'
 permalink: /projects/popularity-prestige/
 title: "Popularity/Prestige"
 image: /assets/images/popularity-prestige.jpg
