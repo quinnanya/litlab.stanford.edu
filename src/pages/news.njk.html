@@ -1,19 +1,23 @@
 ---
+
 layout: base
-permalink: /presentations/
+permalink: /news/
 eleventyNavigation:
-  key: Presentations
+  key: News
   order: 7
 pagination:
-  data: collections.presentations
+  data: collections.news
   size: 10
-  alias: presentations
+  alias: news
+  permalink: "news/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}"
+
 ---
+
 {%- set comma = joiner(", ") -%}
 
-<h2>Presentations</h2>
+<h2>News</h2>
 
-  {%- for post in collections.presentations | reverse -%}
+  {%- for post in collections.news | reverse -%}
 
       <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
 
