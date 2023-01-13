@@ -1,7 +1,7 @@
 ---
-key: 'domestic-tech'
-permalink: /projects/domestic-tech/
-title: "Presentation on Gender and domestic technology in mid-century Women’s magazines"
+key: 'yrdl'
+permalink: /projects/yrdl/
+title: "Young Readers Database of Literature (YRDL)"
 image: /assets/images/placeholder.png
 members:
 collaborators: []
@@ -10,9 +10,8 @@ date_updated:
 start_date:
 end_date:
 shortdesc: |
-  On March 10th, 2022, the members of “Gender and domestic technology in mid-century Women’s magazines” will present their ongoing work investigating the postwar representation of domestic technology in the Women’s Magazine Archive, a corpus of 20th century women’s magazines, looking at fiction, advertisements, and articles from 1945 to 1975.
+  Database of literature for young people.
 longdesc: |
   
 ---
 
-On March 10th, 2022, the members of “Gender and domestic technology in mid-century Women’s magazines” will present their ongoing work investigating the postwar representation of domestic technology in the Women’s Magazine Archive, a corpus of 20th century women’s magazines, looking at fiction, advertisements, and articles from 1945 to 1975.

@@ -96,6 +96,12 @@ eleventyConfig.addFilter("postDate", (dateObj) => {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 });
 
+eleventyConfig.addFilter("numericDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+        zone: "UTC-07:00",
+    }).setLocale('en').toISODate();
+});
+
   // Watch for changes (and reload browser)
   eleventyConfig.addWatchTarget("./src/assets"); // normal (static) assets
   eleventyConfig.addWatchTarget("./dist") // laravel-mix output changes

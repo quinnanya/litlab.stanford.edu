@@ -1,23 +1,20 @@
 ---
-
 layout: base
-permalink: /news/
 eleventyNavigation:
   key: News
   order: 7
 pagination:
   data: collections.news
-  size: 10
+  size: 20
   alias: news
-  permalink: "news/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}"
-
+  permalink: "news/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
 ---
 
 {%- set comma = joiner(", ") -%}
 
 <h2>News</h2>
 
-  {%- for post in collections.news | reverse -%}
+  {%- for post in collections.news -%}
 
       <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
 
