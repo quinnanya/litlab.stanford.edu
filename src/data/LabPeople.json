@@ -37,6 +37,10 @@
 		"key":"mbronstein",
 		"name":"Michaela Bronstein"
 	},
+		{
+		"key":"sdouris",
+		"name":"Steele Douris"
+	},
 	{
 		"key":"adroge",
 		"name":"Abigail Droge"
@@ -46,8 +50,24 @@
 		"name":"Erik Fredner"
 	},
 	{
+		"key":"kge",
+		"name":"Karen Ge"
+	},
+	{
+		"key":"mgorshkova",
+		"name":"Masha Gorshkova"
+	},
+	{
+		"key":"shadi",
+		"name":"Shana Hadi"
+	},
+	{
 		"key":"rheuser",
 		"name":"Ryan Heuser"
+	},
+	{
+		"key":"yilchuk",
+		"name":"Yuliya Ilchuk"
 	},
 	{
 		"key":"aisaacs",
@@ -58,8 +78,16 @@
 		"name":"Matthew Jockers"
 	},
 	{
+		"key":"elee",
+		"name":"Eun Ji Lee"
+	},
+	{
 		"key":"zleniarska",
 		"name":"Zuza Leniarska"
+	},
+	{
+		"key":"alenzo",
+		"name":"Antonio Lenzo"
 	},
 	{
 		"key":"clindeman",
@@ -140,5 +168,9 @@
 	{
 		"key":"mwitmore",
 		"name":"Michael Witmore"
+	},
+		{
+		"key":"jwolf",
+		"name":"Jennifer Wolf"
 	}
 ]
