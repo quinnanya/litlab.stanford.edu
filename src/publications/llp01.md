@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP01'
 author: 'Allison, Sarah and Heuser, Ryan and Jockers, Matthew and Moretti, Franco and Witmore, Michael'
 title: 'Quantitative Formalism: An Experiment'

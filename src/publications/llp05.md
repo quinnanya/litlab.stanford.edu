@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP05'
 author: 'Allison, Sarah and Gemma, Marissa and Heuser, Ryan and Moretti, Franco and Tevel, Amir and Yamboliev, Irena'
 title: '5. Style at the Scale of the Sentence'

@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP11'
 author: 'Algee-Hewitt, Mark and Allison, Sarah and Gemma, Marissa and Heuser, Ryan and Moretti, Franco and Walser, Hannah'
 title: '11. Canon/Archive. Large-scale Dynamics in the Literary Field'

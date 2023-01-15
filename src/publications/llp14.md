@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP14'
 author: 'Kanatova, Maria and Milyakina, Alexandra and Pilipovec, Tatyana and Shelya, Artjom and Sobchuk, Oleg and Tinits, Peeter'
 title: '14. Broken Time, Continued Evolution: Anachronies in Contemporary Films'

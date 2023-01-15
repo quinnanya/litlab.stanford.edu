@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP15'
 author: 'Moretti, Franco'
 title: '15. Patterns and Interpretation'

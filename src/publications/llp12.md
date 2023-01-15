@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP12'
 author: 'Moretti, Franco'
 title: '12. Literature, Measured'

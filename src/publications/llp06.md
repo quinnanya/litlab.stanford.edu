@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP06'
 author: 'Moretti, Franco'
 title: '6. “Operationalizing”: Or, the function of measurement in modern literary theory'

@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP13'
 author: 'Heuser, Ryan and Moretti, Franco and Steiner, Erik'
 title: '13. The Emotions of London'

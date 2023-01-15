@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP09'
 author: 'Moretti, Franco and Pestre, Dominique'
 title: '9. Bankspeak: The Language of World Bank Reports, 1946-2012'

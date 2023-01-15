@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP07'
 author: 'Katsma, Holst'
 title: '7. Loudness in the Novel'

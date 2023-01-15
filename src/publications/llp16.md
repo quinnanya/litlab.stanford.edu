@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP16'
 author: 'Impett, Leonardo and Moretti, Franco'
 title: '16. Totentanz. Operationalizing Aby Warburg’s Pathosformeln'

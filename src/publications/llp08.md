@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP08'
 author: 'Algee-Hewitt, Mark and McGurl, Mark'
 title: '8. Between Canon and Corpus: Six Perspectives on 20th-Century Novels'

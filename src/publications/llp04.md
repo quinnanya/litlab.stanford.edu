@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP04'
 author: 'Heuser, Ryan and Le-Khac, Long'
 title: '4. A Quantitative Literary History of 2,958 Nineteenth-Century British Novels: The Semantic Cohort Method'

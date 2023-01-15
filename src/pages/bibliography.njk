@@ -1,0 +1,48 @@
+---
+layout: base
+title: Bibliography
+permalink: /bibliography/
+pagination:
+  data: collections.publications
+  size: 100
+---
+
+<h2>Publications</h2>
+
+<div class="projects">
+
+	<div class="grid">
+		<section id="cards" class="pt-0">
+			<div class="wrapper wrapper--big">
+				<div class="card__container">
+					{%- for post in pagination.items -%}
+
+					<p>@{{post.data.type}}{% raw %}{{% endraw %}{{post.data.pubkey}},
+						author = "{{post.data.author}}",
+						title = "{{post.data.title}}",
+						{%if post.data.booktitle %}
+						booktitle = "{{post.data.booktitle}}",
+						{% endif %}
+						{%if post.data.editor %}
+						editor = "{{post.data.editor}}",
+						{% endif %}
+						{%if post.data.booktitle %}
+						pages = "{{post.data.pages}}",
+						{% endif %}
+						{%if post.data.publisher %}
+						publisher = "{{post.data.publisher}}",
+						{% endif %}
+						{%if post.data.volume %}
+						volume = "{{post.data.volume}}",
+						{% endif %}
+						year = "{{post.data.year}}"{% raw %}}{% endraw %}
+						</p>
+
+
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+	</div>
+
+</div>

@@ -1,5 +1,5 @@
 ---
-type: 'pamphlet'
+type: 'article'
 pubkey: 'LLP10'
 author: 'Moretti, Franco and Pestre, Dominique'
 title: '10. On Paragraphs. Scale, Themes, and Narrative Form'
