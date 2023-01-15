@@ -1,5 +1,6 @@
 ---
 layout: base
+templateEngineOverride: liquid
 title: Bibliography
 permalink: /bibliography/
 pagination:
@@ -15,9 +16,10 @@ pagination:
 		<section id="cards" class="pt-0">
 			<div class="wrapper wrapper--big">
 				<div class="card__container">
+				
 					{%- for post in pagination.items -%}
 
-					<p>@{{post.data.type}}{% raw %}{{% endraw %}{{post.data.pubkey}},
+					<p>{%bibtex%}@{{post.data.type}}{% raw %}{{% endraw %}{{post.data.pubkey}},
 						author = "{{post.data.author}}",
 						title = "{{post.data.title}}",
 						{%if post.data.booktitle %}
@@ -35,7 +37,7 @@ pagination:
 						{%if post.data.volume %}
 						volume = "{{post.data.volume}}",
 						{% endif %}
-						year = "{{post.data.year}}"{% raw %}}{% endraw %}
+						year = "{{post.data.year}}"{% raw %}}{% endraw %}{%endbibtex%}
 						</p>
 
 

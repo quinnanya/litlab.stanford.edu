@@ -116,6 +116,10 @@ eleventyConfig.addFilter("numericDate", (dateObj) => {
   // eleventy-img config
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   
+  //bibtex config
+  
+  
+  eleventyConfig.addPairedShortcode("bibtex", require('eleventy-plugin-bibtex'));
   
 
   // Base Config
