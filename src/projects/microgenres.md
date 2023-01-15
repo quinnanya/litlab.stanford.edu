@@ -10,7 +10,7 @@ date_updated: 2023-01-01
 start_date: 2018-09-01
 end_date: 2023-01-01
 shortdesc: |
-  Microgenres short description here
+  Computationally modeling disciplinarity and the novel.
 longdesc: |
   Microgenres long description here
 ---

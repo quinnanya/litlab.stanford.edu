@@ -2,7 +2,7 @@
 key: 'translation'
 permalink: /projects/translation/
 title: "Translation"
-image: /assets/images/placeholder.png
+image: /assets/images/translation_project.jpg
 members: [qdombrowski, jporter, yilchuk]
 collaborators: [alenzo, elee, shadi]
 status: 'archive'

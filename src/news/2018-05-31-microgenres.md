@@ -1,6 +1,6 @@
 ---
 title: "Presentation on “Microgenres”"
-projects: 
+projects: [microgenres]
 date: 2018-05-31
 teaser: |
   On May 31st, 2018, there was a presentation from the Microgenres group.

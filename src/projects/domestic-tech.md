@@ -2,10 +2,10 @@
 key: 'domestic-tech'
 permalink: /projects/domestic-tech/
 title: "Gender and Domestic Technology in Mid-Century Women’s Magazines"
-image: /assets/images/placeholder.png
-members: []
-collaborators: []
-status: 'active'
+image: /assets/images/toasters_project.jpg
+members:
+collaborators:
+status: 'archive'
 date_updated:
 start_date:
 end_date:

@@ -2,7 +2,7 @@
 key: 'domestic-space'
 permalink: /projects/domestic-space/
 title: "Domestic Spaces in Fiction"
-image: '/assets/images/placeholder.png'
+image: '/assets/images/domestic_spaces.jpg'
 members: [malgeehe, mwarner, asherman, jmonaco, alamar]
 collaborators: [sguhr]
 date_updated: 2023-01-12

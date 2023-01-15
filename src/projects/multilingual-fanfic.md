@@ -2,7 +2,7 @@
 key: 'multilingual-fanfic'
 permalink: /projects/multilingual-fanfic/
 title: "Multilingual Fanfic"
-image: /assets/images/placeholder.png
+image: /assets/images/multilingual_fanfic_project.jpg
 members: [qdombrowski, sdouris]
 collaborators: [mgorshkova, alenzo]
 status: 'active'

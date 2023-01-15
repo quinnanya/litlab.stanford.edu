@@ -2,7 +2,7 @@
 key: 'yrdl'
 permalink: /projects/yrdl/
 title: "Young Readers Database of Literature (YRDL)"
-image: /assets/images/placeholder.png
+image: /assets/images/yrdl_project.jpg
 members: [nnomura, qdombrowski]
 collaborators: [jwolf, kge]
 status: 'active'

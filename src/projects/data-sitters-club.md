@@ -2,7 +2,7 @@
 key: 'data-sitters-club'
 permalink: /projects/data-sitters-club/
 title: "Data-Sitters Club"
-image: /assets/images/placeholder.png
+image: /assets/images/dsc_project.jpg
 members: [malgeehewitt, qdombrowski]
 collaborators: []
 status: 'active'
