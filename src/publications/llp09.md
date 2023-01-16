@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP09'
 author: 'Moretti, Franco and Pestre, Dominique'
-title: '9. Bankspeak: The Language of World Bank Reports, 1946-2012'
-publisher: 'Stanford Literary Lab'
+title: 'Bankspeak: The Language of World Bank Reports, 1946-2012'
+journal: 'Stanford Literary Lab'
+volume: '9'
 url:
 year: 2015
 project:

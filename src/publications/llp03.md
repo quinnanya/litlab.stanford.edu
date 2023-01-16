@@ -3,7 +3,8 @@ type: 'article'
 pubkey: 'LLP02'
 author: 'Finn, Ed'
 title: 'Becoming Yourself: The Afterlife of Reception'
-publisher: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab'
+volume: '3'
 url:
 year: 2011
 project: 'afterlife-of-reception'

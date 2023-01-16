@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP14'
 author: 'Kanatova, Maria and Milyakina, Alexandra and Pilipovec, Tatyana and Shelya, Artjom and Sobchuk, Oleg and Tinits, Peeter'
-title: '14. Broken Time, Continued Evolution: Anachronies in Contemporary Films'
-publisher: 'Stanford Literary Lab'
+title: 'Broken Time, Continued Evolution: Anachronies in Contemporary Films'
+journal: 'Stanford Literary Lab'
+volume: '14'
 url:
 year: 2017
 project:

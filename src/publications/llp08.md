@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP08'
 author: 'Algee-Hewitt, Mark and McGurl, Mark'
-title: '8. Between Canon and Corpus: Six Perspectives on 20th-Century Novels'
-publisher: 'Stanford Literary Lab'
+title: 'Between Canon and Corpus: Six Perspectives on 20th-Century Novels'
+journal: 'Stanford Literary Lab'
+volume: '8'
 url:
 year: 2015
 project:

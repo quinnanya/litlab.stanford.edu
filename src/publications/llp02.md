@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP02'
 author: 'Allison, Sarah and Heuser, Ryan and Jockers, Matthew and Moretti, Franco and Witmore, Michael'
-title: 'Quantitative Formalism: An Experiment'
-publisher: 'Stanford Literary Lab'
+title: 'Network Theory, Plot Analysis'
+journal: 'Stanford Literary Lab'
+volume: '2'
 url:
 year: 2018
 project: 'network-theory-plot-analysis'

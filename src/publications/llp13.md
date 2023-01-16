@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP13'
 author: 'Heuser, Ryan and Moretti, Franco and Steiner, Erik'
-title: '13. The Emotions of London'
-publisher: 'Stanford Literary Lab'
+title: 'The Emotions of London'
+journal: 'Stanford Literary Lab'
+volume: '13'
 url:
 year: 2016
 project:

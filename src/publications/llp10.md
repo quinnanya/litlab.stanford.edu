@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP10'
 author: 'Moretti, Franco and Pestre, Dominique'
-title: '10. On Paragraphs. Scale, Themes, and Narrative Form'
-publisher: 'Stanford Literary Lab'
+title: 'On Paragraphs. Scale, Themes, and Narrative Form'
+journal: 'Stanford Literary Lab'
+volume: '10'
 url:
 year: 2015
 project:

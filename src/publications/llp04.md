@@ -2,8 +2,9 @@
 type: 'article'
 pubkey: 'LLP04'
 author: 'Heuser, Ryan and Le-Khac, Long'
-title: '4. A Quantitative Literary History of 2,958 Nineteenth-Century British Novels: The Semantic Cohort Method'
-publisher: 'Stanford Literary Lab'
+title: 'A Quantitative Literary History of 2,958 Nineteenth-Century British Novels: The Semantic Cohort Method'
+journal: 'Stanford Literary Lab'
+volume: '4'
 url:
 year: 2012
 project: '19c-british-novels'

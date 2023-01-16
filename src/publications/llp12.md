@@ -2,9 +2,10 @@
 type: 'article'
 pubkey: 'LLP12'
 author: 'Moretti, Franco'
-title: '12. Literature, Measured'
-publisher: 'Stanford Literary Lab'
-url:
+title: 'Literature, Measured'
+journal: 'Stanford Literary Lab'
+volume: '12'
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet12.pdf'
 year: 2016
 project:
 pamphlet:

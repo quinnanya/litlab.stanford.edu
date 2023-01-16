@@ -3,7 +3,8 @@ type: 'article'
 pubkey: 'LLP05'
 author: 'Allison, Sarah and Gemma, Marissa and Heuser, Ryan and Moretti, Franco and Tevel, Amir and Yamboliev, Irena'
 title: '5. Style at the Scale of the Sentence'
-publisher: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab'
+volume: '14'
 url:
 year: 2013
 project: '19c-british-novels'

@@ -11,15 +11,11 @@ pagination:
 <h2>Publications</h2>
 
 <div class="projects">
-
-	<div class="grid">
-		<section id="cards" class="pt-0">
-			<div class="wrapper wrapper--big">
-				<div class="card__container">
 				
-					{%- for post in pagination.items -%}
+				{%- for post in pagination.items -%}
 
-					<p>{%bibtex%}@{{post.data.type}}{% raw %}{{% endraw %}{{post.data.pubkey}},
+
+					{%bibtex%}@{{post.data.type}}{% raw %}{{% endraw %}{{post.data.pubkey}},
 						author = "{{post.data.author}}",
 						title = "{{post.data.title}}",
 						{%if post.data.booktitle %}
@@ -31,20 +27,20 @@ pagination:
 						{%if post.data.booktitle %}
 						pages = "{{post.data.pages}}",
 						{% endif %}
-						{%if post.data.publisher %}
-						publisher = "{{post.data.publisher}}",
+						{%if post.data.journal %}
+						journal = "{{post.data.journal}}",
 						{% endif %}
 						{%if post.data.volume %}
 						volume = "{{post.data.volume}}",
 						{% endif %}
-						year = "{{post.data.year}}"{% raw %}}{% endraw %}{%endbibtex%}
-						</p>
+						{% if post.data.url %}
+						url = "{{post.data.url}}",
+						{% endif %}
+						year = "{{post.data.year}}"
+						{% raw %}}{% endraw %}{%endbibtex%}
+					
 
 
 					{% endfor %}
-				</div>
-			</div>
-		</section>
-	</div>
 
 </div>

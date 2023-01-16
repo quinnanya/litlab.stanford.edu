@@ -1,5 +1,5 @@
 {
   "layout": "post.njk",
   "tags": ["posts", "news"],
-  "permalink": "news/{{date | numericDate}}-{{ title | slugify }}"
+  "permalink": "news/{{date | numericDate}}-{{ title | slugify }}/"
 }
