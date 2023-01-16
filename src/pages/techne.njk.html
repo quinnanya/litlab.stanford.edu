@@ -1,0 +1,35 @@
+---
+layout: base
+eleventyNavigation:
+  key: Techne
+  order: 6
+pagination:
+  data: collections.techne
+  size: 10
+  alias: techne
+  reverse: true
+  permalink: techne/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}/
+---
+
+{%- set comma = joiner(", ") -%}
+
+<h2>Techne</h2>
+
+  {%- for post in techne -%}
+
+      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+
+<p><em>      {% for author in post.data.authors%}
+{%- for person in LabPeople -%}
+    {%- if author == person.key -%}
+{{- comma() -}}{{- person.name -}}
+{% endif %}
+{% endfor %}
+{% endfor %}; {{ post.date | postDate}}</em></p>
+
+
+      {% if post.data.teaser %}
+        <p>{{ post.data.teaser }} <a href="{{ post.url | url }}">Read more.</a></p>
+      {% endif %} 
+  {%- endfor -%} 
+
