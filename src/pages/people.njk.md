@@ -26,18 +26,33 @@ eleventyNavigation:
 
 </table>
 
-
 ### Core Research Team
-<table class="table">
+
 {%- for person in LabPeople -%}
 
 {% if person.labtitle %}
 
 {% if "Core Research" in person.labtitle %}
+<div class="labcore">
+<div class="labcore-pic"><img src="{{person.photo}}" alt="image of {{person.name}}" /></div>
+<div class="labcore-bio"><h4>{{person.name}}</h4><p>{{person.bio}} {{person.name}} can be reached at {{person.email}}.</p></div>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
 
+
+### Members
+<table class="table">
+{%- for person in LabPeople -%}
+
+{% if person.status %}
+
+{% if 'member' in person.status %}
 <tr>
 	<td>{{person.name}}</td>
 	<td>{{person.email}}</td>
+	<td>{% if person.website %}<a href="{{person.website}}">website</a>{% endif %}</td>
 </tr>
 {% endif %}
 {% endif %}
@@ -46,40 +61,20 @@ eleventyNavigation:
 </table>
 
 
-### At Stanford
+
+### Alumni
 <table class="table">
 {%- for person in LabPeople -%}
 
 {% if person.status %}
 
-{% if 'stanford' in person.status %}
-
-<tr>
-	<td>{{person.name}}</td>
-	<td>{{person.email}}</td>
-	<td>{% if person.website%}<a href="{{person.website}}">website</a>{% endif %}</td>
-{% endif %}
-</tr>
-{% endif %}
-{% endfor %}
-
-</table>
-
-
-
-### Elsewhere
-<table class="table">
-{%- for person in LabPeople -%}
-
-{% if person.status %}
-
-{% if 'elsewhere' in person.status %}
+{% if 'alumni' in person.status %}
 
 <tr>
 	<td>{{person.name}}</td>
 	<td>{{person.email}}</td>
 	<td>{% if person.website %}<a href="{{person.website}}">website</a>{% endif %}</td>
-<td>{% if person.university %}{{person.university}}{% endif %}</td>
+<td>{% if person.institution %}{{person.institution}}{% endif %}</td>
 </tr>
 {% endif %}
 {% endif %}
