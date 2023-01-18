@@ -3,45 +3,39 @@ layout: base
 templateEngineOverride: liquid
 title: Bibliography
 permalink: /bibliography/
-pagination:
-  data: collections.publications
-  reverse: true
-  alias: bibliography
-  size: 100
-  
 ---
 
 <h2>Publications</h2>
 
 <div class="projects">
-				
-				{%- for post in pagination.items -%}
+        {% assign publications = collections.publications | map: "data" | sort: 'year' | reverse %}
 
+				{%- for pub in publications -%}
 
-					{%bibtex%}@{{post.data.type}}{% raw %}{{% endraw %}{{post.data.pubkey}},
-						author = "{{post.data.author}}",
-						title = "{{post.data.title}}",
-						{%if post.data.booktitle %}
-						booktitle = "{{post.data.booktitle}}",
+					{%bibtex%}@{{pub.type}}{% raw %}{{% endraw %}{{pub.pubkey}},
+						author = "{{pub.author}}",
+						title = "{{pub.title}}",
+						{%if pub.booktitle %}
+						booktitle = "{{pub.booktitle}}",
 						{% endif %}
-						{%if post.data.editor %}
-						editor = "{{post.data.editor}}",
+						{%if pub.editor %}
+						editor = "{{pub.editor}}",
 						{% endif %}
-						{%if post.data.booktitle %}
-						pages = "{{post.data.pages}}",
+						{%if pub.booktitle %}
+						pages = "{{pub.pages}}",
 						{% endif %}
-						{%if post.data.journal %}
-						journal = "{{post.data.journal}}",
+						{%if pub.journal %}
+						journal = "{{pub.journal}}",
 						{% endif %}
-						{%if post.data.volume %}
-						volume = "{{post.data.volume}}",
+						{%if pub.volume %}
+						volume = "{{pub.volume}}",
 						{% endif %}
-						{% if post.data.url %}
-						url = "{{post.data.url}}",
+						{% if pub.url %}
+						url = "{{pub.url}}",
 						{% endif %}
-						year = "{{post.data.year}}"
+						year = "{{pub.year}}"
 						{% raw %}}{% endraw %}{%endbibtex%}
-					
+
 
 
 					{% endfor %}
