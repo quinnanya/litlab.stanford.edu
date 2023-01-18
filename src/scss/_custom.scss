@@ -72,11 +72,14 @@ div.csl-bib-body {
 div.labcore {
 	display:block;
 	margin-bottom: 10px;
-}
+  text-align: center;
 
-div.labcore-pic {
-	float:left;
-	width:400px;
-	margin-right:10px;
-overflow:auto;
+  h4, p {
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+    width: 400px;
+  }
 }

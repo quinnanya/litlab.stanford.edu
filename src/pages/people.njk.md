@@ -34,8 +34,9 @@ eleventyNavigation:
 
 {% if "Core Research" in person.labtitle %}
 <div class="labcore">
-<div class="labcore-pic"><img src="{{person.photo}}" alt="image of {{person.name}}" /></div>
-<div class="labcore-bio"><h4>{{person.name}}</h4><p>{{person.bio}} {{person.name}} can be reached at {{person.email}}.</p></div>
+<h4>{{person.name}}</h4>
+<img src="{{person.photo}}" alt="image of {{person.name}}" />
+<p>{{person.bio}} {{person.name}} can be reached at {{person.email}}.</p>
 </div>
 {% endif %}
 {% endif %}
