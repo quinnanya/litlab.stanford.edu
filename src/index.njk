@@ -38,7 +38,7 @@ eleventyNavigation:
       <div class="col-md-12 mt-6">
         <h2>Updates</h2>
       {% set latest_posts = collections.posts %}
-{% for post in latest_posts.slice(0,4) %}
+{% for post in latest_posts.slice(0,4) | reverse %}
 <p><a href="{{ post.url | url }}">{{ post.data.title }}</a></p>
 {% endfor %}
 </div>

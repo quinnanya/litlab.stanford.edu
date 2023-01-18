@@ -113,8 +113,8 @@
 	},
 	{
 	"key":"sguhr",
-	"name":"Sevenja Guhr",
-	"status": "member",
+	"name":"Svenja Guhr",
+	"status": "collaborator",
 	"email": "svenja.guhr@tu-darmstadt.de"
 	},
 	{
@@ -189,12 +189,12 @@
 		"name":"Antonio Lenzo"
 	},
 	{
-		"key":"clindeman",
-		"name":"Charlotte Lindeman",
+		"key":"clindemann",
+		"name":"Charlotte Lindemann",
 		"labtitle":"Core Research Team",
 		"email": "cilindem@stanford.edu",
-		"bio": "Charlotte Lindeman comes from New York.",
-		"photo":""
+		"bio": "Charlotte Lindemann comes from New York.",
+		"photo":"/assets/images/people/clindemann.jpg"
 	},
 	{
 		"key":"amanshel",
@@ -356,7 +356,8 @@
 	},
 		{
 		"key":"jwolf",
-		"name":"Jennifer Wolf"
+		"name":"Jennifer Wolf",
+		"status":"collaborator"
 	},
 	{
 	"key":"syates",
