@@ -1,39 +1,48 @@
----
-layout: base
-templateEngineOverride: liquid
-title: Bibliography
-permalink: /bibliography/
+---js
+{
+  layout: "base",
+  templateEngineOverride: "liquid",
+  title: "Bibliography",
+  permalink: "/bibliography/",
+  pagination: {
+    data: "collections.publications",
+    reverse: true,
+    alias: "publications",
+    size: 100,
+    before: function(paginationData, fullData) {
+      return paginationData.sort((a, b) => a.data.year - b.data.year);
+    }
+  }
+}
 ---
 
 <h2>Publications</h2>
 
 <div class="projects">
-        {% assign publications = collections.publications | map: "data" | sort: 'year' | reverse %}
-
 				{%- for pub in publications -%}
 
-					{%bibtex%}@{{pub.type}}{% raw %}{{% endraw %}{{pub.pubkey}},
-						author = "{{pub.author}}",
-						title = "{{pub.title}}",
-						{%if pub.booktitle %}
-						booktitle = "{{pub.booktitle}}",
+					{%bibtex%}@{{pub.data.type}}{% raw %}{{% endraw %}{{pub.data.pubkey}},
+						author = "{{pub.data.author}}",
+						title = "{{pub.data.title}}",
+						{%if pub.data.booktitle %}
+						booktitle = "{{pub.data.booktitle}}",
 						{% endif %}
-						{%if pub.editor %}
-						editor = "{{pub.editor}}",
+						{%if pub.data.editor %}
+						editor = "{{pub.data.editor}}",
 						{% endif %}
-						{%if pub.booktitle %}
-						pages = "{{pub.pages}}",
+						{%if pub.data.booktitle %}
+						pages = "{{pub.data.pages}}",
 						{% endif %}
-						{%if pub.journal %}
-						journal = "{{pub.journal}}",
+						{%if pub.data.journal %}
+						journal = "{{pub.data.journal}}",
 						{% endif %}
-						{%if pub.volume %}
-						volume = "{{pub.volume}}",
+						{%if pub.data.volume %}
+						volume = "{{pub.data.volume}}",
 						{% endif %}
-						{% if pub.url %}
-						url = "{{pub.url}}",
+						{% if pub.data.url %}
+						url = "{{pub.data.url}}",
 						{% endif %}
-						year = "{{pub.year}}"
+						year = "{{pub.data.year}}"
 						{% raw %}}{% endraw %}{%endbibtex%}
 
 
