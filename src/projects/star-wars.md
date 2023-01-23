@@ -4,7 +4,7 @@ permalink: /projects/star-wars/
 title: "Star Wars"
 image: /assets/images/starwars_project.jpg
 members: [malgeehewitt, qdombrowski, nnomura, mwarner]
-collaborators: []
+collaborators:
 status: 'active'
 date_updated: 2023-01-14
 start_date: 2021-02-01

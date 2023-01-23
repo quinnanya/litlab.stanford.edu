@@ -61,6 +61,7 @@ eleventyNavigation:
 
 </table>
 
+
 ### Collaborators
 <table class="table">
 {%- for person in LabPeople -%}
@@ -79,7 +80,23 @@ eleventyNavigation:
 
 </table>
 
+### RAs
+<table class="table">
+{%- for person in LabPeople -%}
 
+{% if person.status %}
+
+{% if 'RA' in person.status %}
+<tr>
+	<td>{{person.name}}</td>
+	<td>{{person.email}}</td>
+	<td>{% if person.website %}<a href="{{person.website}}">website</a>{% endif %}</td>
+</tr>
+{% endif %}
+{% endif %}
+{% endfor %}
+
+</table>
 
 
 ### Alumni

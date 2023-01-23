@@ -58,6 +58,16 @@
 		"email":"mburger@rwu.edu"
 	},
 	{
+		"key":"abutlerwall",
+		"name":"Annika Butler-Wall",
+		"status":"member"
+	},
+	{
+		"key":"cchen",
+		"name":"Cynthia Chen",
+		"status":"RA"
+	},
+	{
 	"key":"qdombrowski",
 	"name":"Quinn Dombrowski",
 	"status": "member",
@@ -182,7 +192,8 @@
 	},
 	{
 		"key":"zleniarska",
-		"name":"Zuza Leniarska"
+		"name":"Zuza Leniarska",
+		"status":"collaborator"
 	},
 	{
 		"key":"alenzo",
