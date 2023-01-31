@@ -1,16 +1,16 @@
 ---
-key: 'suspense'
-permalink: /projects/suspense/
-title: "Suspense"
-image: /assets/images/suspense.jpg
-members: [malgeehewitt, adroge, efredner, jporter, teccles, mfrank ashephard, osobchuk, hwalser]
-collaborators: [cdavis, leidem]
+key: 'social-distancing'
+permalink: /projects/social-distancing/
+title: "Social Distancing"
+image: /assets/images/social-distancing.jpg
+members: [malgeehewitt, mwarner]
+collaborators:
 status: 'archive'
 date_updated: 2023-01-01
-start_date: 2014-09-01
-end_date: 2018-01-01
+start_date: 2020-04-01
+end_date: 2021-06-15
 shortdesc: |
-  Unpacking the transhistorical and transgeneric commonalities of suspense literature
+  Exploring scenes of isolation from the eighteenth century through the present day
 ---
 
 As a textual phenomenon that seems to rely exclusively on the affective states of an audience, suspense would appear to be well outside of the quantifiable aspects of literature that are available to Digital Humanities study. Even while suspense can be understood as a genre of writing, this generic label is relegated to a relatively small group of texts, ignoring the way that many other genres, for example, horror, science fiction, mysteries and thrillers, also make use of the same phenomenon. Compounding these difficulties, suspense is also a descriptive category that can be applied at the inter-textual level (works can be “suspenseful”) as well as at the intra-textual level (certain parts of works can be “suspenseful”). Finally, suspense can also manifest itself as an epiphenomenon of narrative: disentangling the “momentum” of narrative propulsion from the existential suspense of genre fiction further complicates studies attempting to isolate the origins of suspense effects.

@@ -63,6 +63,10 @@
 		"status":"member"
 	},
 	{
+		"key":"cdavis",
+		"name":"Chelsea Davis"
+	},
+	{
 		"key":"cchen",
 		"name":"Cynthia Chen",
 		"status":"RA"
@@ -91,6 +95,10 @@
 		"status":"alumni",
 		"affiliation":"Yale University",
 		"email":"anastasia.eccles@yale.edu"
+	},
+	{
+		"key":"leidem",
+		"name":"Laura Eidem"
 	},
 	{
 		"key":"efinn",
@@ -213,6 +221,10 @@
 		"email":"alexander.manshel@gmail.com",
 		"status":"alumni",
 		"affiliation": "McGill University"
+	},
+	{
+		"key":"nmavrody",
+		"name":"Nika Mavrody"
 	},
 	{
 		"key":"dmcclure",
