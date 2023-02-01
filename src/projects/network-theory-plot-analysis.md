@@ -3,13 +3,13 @@ key: 'network-theory-plot-analysis'
 permalink: /projects/network-theory-plot-analysis/
 title: "Network Theory, Plot Analysis"
 image: /assets/images/placholder.png
-members: 
+members: [fmoretti]
 status: 'archive'
-shortdesc: "short description here"
-longdesc: "long description here"
+shortdesc: "Using character networks for a quantitative analysis of plot"
 ---
 
+This project aimed to build out methods for using quantitative evidence, looking at plot through the lens of network analysis -- specifically, networks of characters. Using several of Shakespeare's plays, the project examines the roles of individual characters (such as Horatio), using their position within the network as a way to draw out their function within the text.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus elementum finibus. Morbi venenatis, nisi ut imperdiet dictum, mi sapien ultricies turpis, ut luctus mauris libero id sapien. Nam mattis erat auctor sapien posuere, id egestas magna posuere. Donec nec malesuada purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed aliquet eget purus tempus viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris hendrerit eget neque eget vestibulum. Morbi tempus eros nec arcu ornare, in commodo est efficitur.
+The project finds symmetry within the character network of Dickens's *Our Mutual Friend*, attributing it to his use of binary pairs (e.g. husband and wife), and extends this observation to a Chinese play, *The Story of the Stone*, linking it to *guanxi*, a "distinctive keyword of Chinese culture", meaning something like "connections".
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia non nibh sed viverra. Phasellus vel nunc orci. Quisque pretium urna velit, vitae mattis sapien finibus dignissim. Duis quis dictum neque, non eleifend elit. Aliquam semper semper faucibus. Aliquam commodo accumsan arcu, sed interdum libero dapibus eget. Suspendisse id tempus tortor. Phasellus in ligula luctus, ultricies mi nec, lobortis lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam congue porttitor gravida. Nam tortor augue, efficitur ac lobortis vitae, mattis ac nulla. Phasellus sit amet ipsum quis felis consectetur convallis sed a odio.
+Ultimately, the project discovered the limits of using visualizations of character networks, as many of the results were difficult to interpret at best. For future work, it turned towards network metrics and statistical analysis.
