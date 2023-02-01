@@ -1,7 +1,7 @@
 ---
 key: 'identity'
 permalink: /projects/identity/
-title: "Representations of Race and Ethnicity in American Fiction, 1789-1964"
+title: "Identity"
 image: /assets/images/identity.jpg
 members: [malgeehewitt, jporter, hwalser]
 collaborators:

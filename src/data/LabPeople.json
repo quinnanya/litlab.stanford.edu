@@ -3,7 +3,7 @@
 	"name": "Luca Abbattista",
 	"email": "luca.abbattista@gmail.com",
 	"status": "alumni"},
-	
+
 	{
 		"key":"malgeehewitt",
 		"name":"Mark Algee-Hewitt",
@@ -25,8 +25,8 @@
 		"key":"ealvarado",
 		"name":"Ena Alvarado"
 	},
-	
-	
+
+
 	{
 		"key": "jbender",
 		"name": "John Bender",
@@ -90,6 +90,10 @@
 		"affiliation":"Emory University"
 	},
 	{
+		"key":"ydu",
+		"name":"Yibing Du"
+	},
+	{
 		"key":"teccles",
 		"name":"Tasha Eccles",
 		"status":"alumni",
@@ -120,6 +124,10 @@
 		"email":"fredner@virginia.edu",
 		"status":"collaborator",
 		"affiliation": "University of Virginia"
+	},
+		{
+		"key":"lgalindoromero",
+		"name":"Laura Galindo-Romero"
 	},
 	{
 		"key":"kge",
@@ -292,6 +300,10 @@
 		"email":"jack.d.porter@gmail.com",
 		"status": "collaborator",
 		"affiliation": "Price Lab; University of Pennsylvania"
+	},
+		{
+		"key":"mrozopaz",
+		"name":"Mariana Rozo Paz"
 	},
 	{
 		"key":"ashepard",
