@@ -1,6 +1,6 @@
 ---
 title: "Presentation on “Novel Worldbuilding”"
-projects: 
+projects: [novel-worldbuilding]
 date: 2018-10-30
 teaser: |
   On October 30th, 2018, Mark Algee-Hewitt and Nichole Nomura presented their latest work on the Novel Worldbuilding project.

@@ -1,6 +1,6 @@
 ---
 title: "Presentation on “Typicality”"
-projects: 
+projects: [typicality]
 date: 2018-12-05
 teaser: |
   On December 5th, 2018, Mark Algee-Hewitt and Erik Fredner presented the latest results from their project on Typicality.

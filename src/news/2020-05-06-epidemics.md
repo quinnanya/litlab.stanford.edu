@@ -1,6 +1,6 @@
 ---
 title: "Presentation on the new Epidemics project"
-projects: 
+projects: [social-distancing]
 date: 2020-05-06
 teaser: |
   On May 6th, 2020, we discussed the work of Mark Algee-Hewitt, Yibing Du, Maciej Kurzynski, Charlotte Lindemann, Nika Mavrody, Nichole Nomura, J.D. Porter, Carmen Thong, and Matthew Warner on the new Epidemics project.

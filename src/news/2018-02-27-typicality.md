@@ -1,6 +1,6 @@
 ---
 title: "Presentation on “Typicality”"
-projects: 
+projects: [typicality]
 date: 2018-02-27
 teaser: |
   On February 27th, 2018, Mark Algee-Hewitt and Erik Fredner presented their new project on typicality in literature.

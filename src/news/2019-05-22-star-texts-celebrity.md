@@ -1,6 +1,6 @@
 ---
 title: "Presentations on “Star Texts” and “Celebrity”"
-projects: 
+projects: [star-texts, celebrity]
 date: 2019-05-22
 teaser: |
   On May 22nd, 2019, Charlotte Lindemann, Mark Algee-Hewitt, and Laura McGrath presented on two related projects, Star Texts and Celebrity.

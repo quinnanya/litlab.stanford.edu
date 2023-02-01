@@ -1,6 +1,6 @@
 ---
 title: "Presentation from the social distancing project"
-projects: 
+projects: [social-distancing]
 date: 2020-11-18
 teaser: |
   On November 18th, 2020, members of the social distancing project presented their latest work.

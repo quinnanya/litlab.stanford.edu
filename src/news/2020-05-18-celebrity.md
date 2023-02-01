@@ -1,6 +1,6 @@
 ---
 title: "Presentation on the Celebrity collaboration with the Smithsonian Museum of American History"
-projects: 
+projects: [celebrity]
 date: 2020-05-18
 teaser: |
   On May 18th, 2020, Mark Algee-Hewitt, Erik Fredner, Charlotte Lindemann, Laura McGrath and J.D. Porter presented the latest work on Celebrity, our ongoing, large-scale collaboration with the Smithsonian Museum of American History on the history of American celebrity.

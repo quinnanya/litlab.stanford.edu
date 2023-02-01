@@ -1,6 +1,6 @@
 ---
 title: "Presentation on 'Translation'"
-projects: 
+projects: [translation]
 date: 2020-02-14
 teaser: |
   On February 18, 2020, J.D. Porter, Quinn Dombrowski, Yuilia Ilchuk, Antonio Lenzo, Eun Ji Lee, Shana Hadi presented "Translation".
