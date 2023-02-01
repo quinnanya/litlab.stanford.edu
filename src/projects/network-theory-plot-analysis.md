@@ -2,7 +2,7 @@
 key: 'network-theory-plot-analysis'
 permalink: /projects/network-theory-plot-analysis/
 title: "Network Theory, Plot Analysis"
-image: /assets/images/placholder.png
+image: /assets/images/network-theory-plot-analysis.jpg
 members: [fmoretti]
 status: 'archive'
 shortdesc: "Using character networks for a quantitative analysis of plot"
