@@ -6,7 +6,7 @@ image: /assets/images/bankspeak.jpg
 members: [fmoretti]
 collaborators: [dpestre]
 status: 'archive'
-shortdesc: ""
+shortdesc: "Tracking the evolution of the discourse of the World Bank Report from 1958-2008"
 end_date: 2015-03-01
 ---
 
