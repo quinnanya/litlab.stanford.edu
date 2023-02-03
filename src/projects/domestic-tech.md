@@ -8,10 +8,9 @@ collaborators:
 status: 'archive'
 date_updated: 2022-03-15
 start_date: 2021-09-01
-end_date:
+end_date: 2022-06-15
 shortdesc: |
-  Investigating the postwar representation of domestic technology in the Women’s Magazine Archive, a corpus of 20th century women’s magazines, looking at fiction, advertisements, and articles from 1945 to 1975.
-longdesc: |
+  Investigating the postwar representation of domestic technology in 20th century women’s magazines
   
 ---
 

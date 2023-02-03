@@ -3,8 +3,8 @@ key: 'broken-time'
 permalink: /projects/broken-time/
 title: "Broken Time, Continued Evolution: Anachronies in Contemporary Films"
 image: /assets/images/broken-time.jpg
-members: [mkanatova, amilyakina, tpilipovec, ashelya, osobchuk, ptinits]
-collaborators: []
+members: [osobchuk]
+collaborators: [mkanatova, amilyakina, tpilipovec, ashelya, ptinits]
 status: 'archive'
 shortdesc: "Tracking the emergence of detective films with a high number of anachronies in the 90's"
 end_date: 2017-04-01

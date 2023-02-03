@@ -6,6 +6,7 @@ image: /assets/images/network-theory-plot-analysis.jpg
 members: [fmoretti]
 status: 'archive'
 shortdesc: "Using character networks for a quantitative analysis of plot"
+end_date: 2011-05-01
 ---
 
 This project aimed to build out methods for using quantitative evidence, looking at plot through the lens of network analysis -- specifically, networks of characters. Using several of Shakespeare's plays, the project examines the roles of individual characters (such as Horatio), using their position within the network as a way to draw out their function within the text.

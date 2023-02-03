@@ -34,11 +34,23 @@
 		"website": "https://english.stanford.edu/people/john-bender"
 	},
 	{
+		"key":"lbessette",
+		"name":"Lee Skallerup Bessette"
+	},
+	{
+		"key":"mburger",
+		"name":"Michael Burger"
+	},
+	{
 		"key":"cblevins",
 		"name":"Cameron Blevins",
 		"status":"alumni",
 		"affiliation":"Northeastern University",
 		"email":"cblevins@stanford.edu"
+	},
+	{
+		"key":"kbowers",
+		"name":"Katia Bowers"
 	},
 	{
 		"key":"mbronstein",
@@ -61,6 +73,10 @@
 		"key":"abutlerwall",
 		"name":"Annika Butler-Wall",
 		"status":"member"
+	},
+	{
+		"key":"mcecire",
+		"name":"Maria Sachiko Cecire"
 	},
 	{
 		"key":"cdavis",
@@ -117,6 +133,10 @@
 		"status":"alumni",
 		"affiliation":"Harvard University",
 		"email":"efrank@wesleyan.edu"
+	},
+	{
+		"key":"zfrank",
+		"name":"Zephyr Frank"
 	},
 	{
 		"key":"efredner",
@@ -176,6 +196,14 @@
 	"email": "nmj@stanford.edu"
 	},
 	{
+		"key":"djurafsky",
+		"name":"Dan Jurafsky"
+	},
+	{
+		"key":"mkanatova",
+		"name":"Maria Kanatova"
+	},
+	{
 	"key":"akeener",
 	"name":"Alix Keener",
 	"status": "member",
@@ -187,6 +215,20 @@
 		"email":"maria.kraxenberger@googlemail.com",
 		"status":"alumni",
 		"affiliation": "University of Suttgart"
+	},
+	{
+		"key":"alamar",
+		"name":"Annie K. Lamar",
+		"status": "member",
+		"email": "kalamar@stanford.edu"
+	},
+	{
+		"key":"alang",
+		"name":"Anouk Lang"
+	},
+	{
+		"key":"alaw",
+		"name":"Anita Law"
 	},
 	{
 		"key":"glayneworthey",
@@ -224,6 +266,10 @@
 		"photo":"/assets/images/people/clindemann.jpg"
 	},
 	{
+		"key":"tllewellyn",
+		"name":"Tanya Llewellyn"
+	},
+	{
 		"key":"amanshel",
 		"name":"Xander Manshel",
 		"email":"alexander.manshel@gmail.com",
@@ -235,6 +281,10 @@
 		"name":"Nika Mavrody"
 	},
 	{
+		"key":"mmcgurl",
+		"name":"Mark McGurl"
+	},
+	{
 		"key":"dmcclure",
 		"name":"David McClure"
 	},
@@ -243,6 +293,10 @@
 		"name":"Lisa Mendelman",
 		"status":"collaborator",
 		"affiliation": "Menlo College"
+	},
+	{
+		"key":"amilyakina",
+		"name":"Alexandra Milyakina"
 	},
 	{
 		"key":"jmonaco",
@@ -267,6 +321,10 @@
 		"name":"Felix Muzny",
 		"email":"muzny@colorado.edu",
 		"status":"alumni"
+	},
+	{
+		"key":"gmuzny",
+		"name":"Grace Muzny"
 	},
 	{
 		"key":"nnomura",
@@ -295,6 +353,10 @@
 		"status":"alumni"
 	},
 	{
+		"key":"tpilipovec",
+		"name":"Tatyana Pilipovec"
+	},
+	{
 		"key":"jporter",
 		"name":"J.D. Porter",
 		"email":"jack.d.porter@gmail.com",
@@ -304,6 +366,18 @@
 		{
 		"key":"mrozopaz",
 		"name":"Mariana Rozo Paz"
+	},
+	{
+		"key":"rrisam",
+		"name":"Roopika Risam"
+	},
+	{
+		"key":"jsensenbaugh",
+		"name":"Jonathan Sensenbaugh"
+	},
+	{
+		"key":"ashelya",
+		"name":"Artjom Shelya"
 	},
 	{
 		"key":"ashepard",
@@ -341,6 +415,10 @@
 		"affiliation": "University of Tartu"
 	},
 	{
+		"key":"jtackett",
+		"name":"Justin Tackett"
+	},
+	{
 	"key":"rta",
 	"name":"Regina T.H. Tar",
 	"status": "member",
@@ -357,6 +435,10 @@
 		"name":"Kendra Terry",
 		"status": "collaborator",
 		"affiliation": "Derner School of Psychology, Adelphi University"
+	},
+	{
+		"key":"ptinits",
+		"name":"Peeter Tinits"
 	},
 	{
 		"key":"sthomas",

@@ -1,11 +1,20 @@
+---js
+{
+  layout: "base",
+  title: "Project Archive",
+  permalink: "/archive/",
+  pagination: {
+    data: "collections.projects",
+    reverse: true,
+    alias: "projects",
+    size: 100,
+    before: function(paginationData, fullData) {
+      return paginationData.sort((a, b) => a.data.end_date - b.data.end_date);
+    }
+  }
+}
 ---
-layout: base
-title: Project Archive
-permalink: /projects/archive/
-pagination:
-  data: collections.projects
-  size: 100
----
+
 <h2>Project Archive</h2>
 
 <div class="projects">

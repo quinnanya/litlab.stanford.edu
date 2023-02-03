@@ -7,12 +7,10 @@ members: [malgeehe, mbronstein, adroge, efredner, rheuser, amanshel, nnomura, jp
 collaborators:
 status: 'archive'
 date_updated: 2023-01-01
-start_date: 2018-09-01
+start_date: 2017-09-01
 end_date: 2023-01-01
 shortdesc: |
-  Computationally modeling stylistic changes within the novel that mimic other disciplinary discourses.
-longdesc: |
-
+  Computationally modeling stylistic changes within the novel that mimic other disciplinary discourses
 ---
 
 From Bakhtin’s heteroglossia to Genette’s transtextuality, theories of the novel describe its form as a mixture of diverse elements or styles. While many of these mixtures are contiguous with the text as a whole (a novel, for example, can operate in both the genres of history and the gothic), in this project, we are interested in overt stylistic changes *within* the text of a novel that mimic the discourse of non-novel genres like psychology, philosophy, or natural science—what we call here shifts in *microgenre*.

@@ -7,12 +7,11 @@ members: [nnomura, qdombrowski]
 collaborators: [jwolf, kge]
 status: 'active'
 website: 'https://yrdl.org/'
-date_updated:
-start_date:
+date_updated: 2023-02-01
+start_date: 2020-06-15
 end_date:
 shortdesc: |
   YRDL explores diverse research questions about literature for young readers, using a database of 30,000+ works in English from the 20th and 21st century.
-longdesc: |
   
 ---
 

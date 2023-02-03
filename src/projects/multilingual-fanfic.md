@@ -10,8 +10,7 @@ date_updated: 2023-01-15
 start_date: 2019-01-15
 end_date:
 shortdesc: |
-  Even with same point of departure, fan fiction responses to that material diverge in ways that are shaped by shaped by language and culture.
-longdesc: |
+  Examining the reflection of linguistic and cultural differences in fan fiction
   
 ---
 

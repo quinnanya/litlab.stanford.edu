@@ -8,7 +8,7 @@ collaborators:
 status: 'archive'
 date_updated: 2023-01-01
 start_date: 2018-09-01
-end_date: 2023-01-01
+end_date: 2020-09-01
 shortdesc: |
   What is the typical American novel about?
 ---

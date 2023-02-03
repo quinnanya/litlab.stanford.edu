@@ -1,14 +1,20 @@
+---js
+{
+  layout: "base",
+  title: "Projects",
+  permalink: "/projects/",
+  pagination: {
+    data: "collections.projects",
+    reverse: true,
+    alias: "projects",
+    size: 100,
+    before: function(paginationData, fullData) {
+      return paginationData.sort((a, b) => a.data.date_updated - b.data.date_updated);
+    }
+  }
+}
 ---
-layout: base
-title: Projects
-permalink: /projects/
-eleventyNavigation:
-  key: Projects
-  order: 4
-pagination:
-  data: collections.projects
-  size: 100
----
+
 <h2>Projects</h2>
 
 <p>See past projects in the <a href="/projects/archive/">project archive<a>.</p>
