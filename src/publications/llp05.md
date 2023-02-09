@@ -2,12 +2,12 @@
 type: 'article'
 pubkey: 'LLP05'
 author: 'Allison, Sarah and Gemma, Marissa and Heuser, Ryan and Moretti, Franco and Tevel, Amir and Yamboliev, Irena'
-title: '5. Style at the Scale of the Sentence'
-journal: 'Stanford Literary Lab'
-volume: '14'
-url:
+title: 'Style at the Scale of the Sentence'
+journal: 'Stanford Literary Lab Pamphlets'
+volume: '5'
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet5.pdf'
 year: 2013
-project: '19c-british-novels'
+project:
 pamphlet:
   image: "/assets/images/p05.png"
   pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet5.pdf"

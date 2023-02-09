@@ -3,11 +3,11 @@ type: 'article'
 pubkey: 'LLP06'
 author: 'Moretti, Franco'
 title: '“Operationalizing”: Or, the function of measurement in modern literary theory'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '6'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet6.pdf'
 year: 2013
-project: '19c-british-novels'
+project: 'operationalizing'
 pamphlet:
   image: "/assets/images/p06.png"
   pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet6.pdf"

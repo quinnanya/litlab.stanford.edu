@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP13'
 author: 'Heuser, Ryan and Moretti, Franco and Steiner, Erik'
 title: 'The Emotions of London'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '13'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet13.pdf'
 year: 2016
 project:
 pamphlet:

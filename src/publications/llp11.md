@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP11'
 author: 'Algee-Hewitt, Mark and Allison, Sarah and Gemma, Marissa and Heuser, Ryan and Moretti, Franco and Walser, Hannah'
 title: 'Canon/Archive. Large-scale Dynamics in the Literary Field'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '11'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet11.pdf'
 year: 2016
 project:
 pamphlet:

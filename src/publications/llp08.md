@@ -5,9 +5,9 @@ author: 'Algee-Hewitt, Mark and McGurl, Mark'
 title: 'Between Canon and Corpus: Six Perspectives on 20th-Century Novels'
 journal: 'Stanford Literary Lab'
 volume: '8'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet8.pdf'
 year: 2015
-project:
+project: 'canon-corpus'
 pamphlet:
   image: "/assets/images/p08.png"
   pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet8.pdf"

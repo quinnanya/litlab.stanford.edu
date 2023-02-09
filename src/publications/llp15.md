@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP15'
 author: 'Moretti, Franco'
 title: 'Patterns and Interpretation'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '15'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet15.pdf'
 year: 2017
 project:
 pamphlet:

@@ -83,3 +83,20 @@ div.labcore {
     width: 400px;
   }
 }
+
+
+
+div.pamphlet {
+	display:block;
+	margin-bottom: 10px;
+  text-align: center;
+
+  h4, p {
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+    width: 800px;
+  }
+}

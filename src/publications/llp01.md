@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP01'
 author: 'Allison, Sarah and Heuser, Ryan and Jockers, Matthew and Moretti, Franco and Witmore, Michael'
 title: 'Quantitative Formalism: An Experiment'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '1'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet1.pdf'
 year: 2011
 project: 'quantitative-formalism'
 pamphlet:

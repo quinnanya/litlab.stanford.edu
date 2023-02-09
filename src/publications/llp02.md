@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP02'
 author: 'Allison, Sarah and Heuser, Ryan and Jockers, Matthew and Moretti, Franco and Witmore, Michael'
 title: 'Network Theory, Plot Analysis'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '2'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf'
 year: 2018
 project: 'network-theory-plot-analysis'
 pamphlet:

@@ -3,11 +3,11 @@ type: 'article'
 pubkey: 'LLP07'
 author: 'Katsma, Holst'
 title: 'Loudness in the Novel'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '7'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet7.pdf'
 year: 2014
-project:
+project: 'loudness'
 pamphlet:
   image: "/assets/images/p07.png"
   pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet7.pdf"

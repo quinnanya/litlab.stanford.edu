@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP16'
 author: 'Impett, Leonardo and Moretti, Franco'
 title: 'Totentanz. Operationalizing Aby Warburg’s Pathosformeln'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '16'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet16.pdf'
 year: 2017
 project:
 pamphlet:

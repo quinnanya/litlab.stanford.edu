@@ -3,9 +3,9 @@ type: 'article'
 pubkey: 'LLP17'
 author: 'J.D. Porter'
 title: 'Popularity/Prestige'
-journal: 'Stanford Literary Lab'
+journal: 'Stanford Literary Lab Pamphlets'
 volume: '17'
-url:
+url: 'https://litlab.stanford.edu/LiteraryLabPamphlet17.pdf'
 year: 2018
 project: 'popularity-prestige'
 pamphlet:
