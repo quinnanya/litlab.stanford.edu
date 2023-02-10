@@ -15,9 +15,30 @@ eleventyNavigation:
 <p>The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature. <a href="/about">Learn more about the Lab.</a></p>
 
 
+  <div class="col-md-6 mt-3">
+    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
+      <h2>The Lab</h2>
+	  <img src="/assets/images/litlab_fall2022.jpg" alt="end of the quarter event for the LitLab, fall 2022" width="400px" />
+      <p>The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature. <a href="/about">Learn more about the Lab.</a></p>
+      <a href="{{ '/projects ' | url }}" class="btn btn-outline-dark">About the Lab</a>
+    </div>
+  </div>
+  <div class="col-md-6 mt-3">
+    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
+      <h2>Updates</h2>
+	        {% set latest_posts = collections.posts %}
+	  {% for post in latest_posts.slice(0,3)|sort(false, true, 'post.data.date') %}
+	  
+	  <p><a href="{{ post.url | url }}">{{ post.data.title }}</a></p>
+	  {% endfor %}
+      <a href="{{ '/pamphlets ' | url }}" class="btn btn-outline-dark">Read our latest work</a>
+      </div>
+      </div>
+
+
 
   <div class="col-md-6 mt-3">
-    <div class="h-100 p-5 border rounded-3" style="background-color: #9d1c32; color: #ffffff;">
+    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
       <h2>Projects</h2>
       <p>
         Our projects cover a broad range of time periods, genres, languages, and media, based on our members' wide-ranging interests.
@@ -26,7 +47,7 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 mt-3">
-    <div class="h-100 p-5 border rounded-3" style="background-color: #9d1c32; color: #ffffff;">
+    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
       <h2>Pamphlets</h2>
       <p>
         Our long-running pamphlet series has served as a model for digital humanities publication across the field of computational literary study.
@@ -34,16 +55,6 @@ eleventyNavigation:
       <a href="{{ '/pamphlets ' | url }}" class="btn btn-outline-dark">Read our latest work</a>
       </div>
       </div>
-
-      <div class="col-md-12 mt-6">
-        <h2>Updates</h2>
-      {% set latest_posts = collections.posts %}
-{% for post in latest_posts.slice(0,4) | reverse %}
-<p><a href="{{ post.url | url }}">{{ post.data.title }}</a></p>
-{% endfor %}
-</div>
-    </div>
-
 
 
 <!-- for debug: {{ site | dump }} {{page | dump }} {{meta | dump}}-->

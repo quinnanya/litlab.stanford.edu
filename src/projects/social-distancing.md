@@ -3,7 +3,7 @@ key: 'social-distancing'
 permalink: /projects/social-distancing/
 title: "Social Distancing"
 image: /assets/images/social-distancing.jpg
-members: [malgeehewitt, clindemann, nmavrody, nnomura, jporter, mwarner]
+members: [malgeehewitt, clindemannn, nmavrody, nnomura, jporter, mwarner]
 collaborators: [ydu]
 status: 'archive'
 date_updated: 2023-01-01

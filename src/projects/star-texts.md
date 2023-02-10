@@ -3,7 +3,7 @@ key: 'star-texts'
 permalink: /projects/star-texts/
 title: "Star Texts"
 image: /assets/images/star-texts.jpg
-members: [clindeman, malgeehewitt, hwalser]
+members: [clindemann, malgeehewitt, hwalser]
 collaborators: 
 status: 'archive'
 date_updated: 2023-01-01

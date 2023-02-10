@@ -3,7 +3,7 @@ key: 'celebrity'
 permalink: /projects/celebrity/
 title: "Celebrity"
 image: /assets/images/celebrity.jpg
-members: [malgeehewitt, efredner, clindeman, lmcgrath, jporter]
+members: [malgeehewitt, efredner, clindemann, lmcgrath, jporter]
 collaborators:
 status: 'archive'
 date_updated: 2021-07-29

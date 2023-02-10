@@ -1,7 +1,7 @@
 ---
 permalink: '/star-texts/'
 title: "Star Texts: A Case Study in Harper’s and Vogue"
-authors: [clindemann]
+authors: [clindemannn]
 projects:
 date: 2020-02-07
 teaser: |

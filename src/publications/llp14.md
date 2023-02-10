@@ -12,5 +12,5 @@ pamphlet:
   image: "/assets/images/p14.png"
   pdf: "https://litlab.stanford.edu/LiteraryLabPamphlet14.pdf"
   pubdate: 2017-04-01
-  blurb: "After the economic ideology of “Bankspeak”, and the cultural geography of “The Emotions of London”, “Broken Time” is the Literary Lab’s first venture into film studies, to be followed by a pamphlet on art history: a series of investigations which we hope will contribute to establish a common conceptual ground among the different branches of quantitative cultural history.s"
+  blurb: "After the economic ideology of “Bankspeak”, and the cultural geography of “The Emotions of London”, “Broken Time” is the Literary Lab’s first venture into film studies, to be followed by a pamphlet on art history: a series of investigations which we hope will contribute to establish a common conceptual ground among the different branches of quantitative cultural history."
 ---

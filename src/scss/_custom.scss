@@ -70,17 +70,19 @@ div.csl-bib-body {
 }
 
 div.labcore {
-	display:block;
+	display: flex;
 	margin-bottom: 10px;
   text-align: center;
 
   h4, p {
     text-align: left;
+	margin-left: 10px;
   }
 
   img {
     max-width: 100%;
-    width: 400px;
+    width: 200px;
+	flex-basis:40%;
   }
 }
 
@@ -99,4 +101,14 @@ div.pamphlet {
     max-width: 100%;
     width: 800px;
   }
+}
+
+
+div.frontbox {
+	background-color: #9d1c32; 
+	color: #ffffff;
+	
+	a {
+		color: #000000;
+	}
 }
