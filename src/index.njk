@@ -24,49 +24,109 @@
 
 <div class="row align-items-md-stretch">
 
-<p>The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature. <a href="/about">Learn more about the Lab.</a></p>
+<!-- Container for the image gallery -->
+<div class="container col-xs-12 col-md-8">
 
-
-  <div class="col-md-6 mt-3">
-    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
-      <h2>The Lab</h2>
-	  <img src="/assets/images/litlab_fall2022.jpg" alt="end of the quarter event for the LitLab, fall 2022" width="400px" />
-      <p>The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature. <a href="/about">Learn more about the Lab.</a></p>
-      <a href="{{ '/projects ' | url }}" class="btn btn-outline-dark">About the Lab</a>
-    </div>
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+      <img src="/assets/images/litlab_fall2022.jpg" style="width:100%">
   </div>
-  <div class="col-md-6 mt-3">
-    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
-      <h2>Updates</h2>
+  
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+      <img src="/assets/images/theory_frontpage.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+      <img src="/assets/images/gothic_genres_front.jpg" style="width:100%">
+  </div>
+  
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+      <img src="/assets/images/short_story_front.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="/assets/images/p17_frontpage.jpg" style="width:100%">
+  </div>
+  
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/assets/images/litlab_fall2022_thumb.jpg" style="width:100%" onclick="currentSlide(1)" alt="LitLab happy hour, fall 2022. The Lab holds social events every quarter in addition to its regular meetings.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/images/theory_thumb.jpg" style="width:100%" onclick="currentSlide(2)" alt="How has the discourse of theory, particularly around identity, evolved over the 20th and 21st century? The Mellon Foundation has funded a project at the Lab to pursue these questions.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/images/gothic_genres_front.jpg" style="width:100%" onclick="currentSlide(3)" alt="'Castle at the Crossroads: The Gothic and Other Genres' uses supervised modelling techniques to explore the connections of the gothic novel to contemporaneous modes of literary realism.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/images/short_story_front.jpg" style="width:100%" onclick="currentSlide(4)" alt="Are short stories distinguishable from novels? Forthcoming in the Cambridge Companion to the Short Story in Spring 2023!">
+    </div>
+	
+    <div class="column">
+      <img class="demo cursor" src="/assets/images/p17_thumb.jpg" style="width:100%" onclick="currentSlide(5)" alt="Pamphlet 17: Popularity/Prestige, the latest in our long-running Pamphlets series.">
+    </div>
+	
+	
+	
+  </div>
+</div>
+
+
+<div class="col-xs-6 col-md-4">
+<h2>Updates</h2>
 	  {% for post in latest_posts.slice(0,3)|sort(false, true, 'post.data.date') %}
 	  
-	  <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-	  <p>{{post.teaser}}</p>
+	  <h4><a href="{{ post.url | url }}">{{ post.data.title }}</a></h4>
+	  <p>{{post.data.teaser}}</p>
 	  {% endfor %}
-      <a href="{{ '/news ' | url }}" class="btn btn-outline-dark">Read more updates</a>
-      </div>
       </div>
 
 
 
-  <div class="col-md-6 mt-3">
-    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
-      <h2>Projects</h2>
-      <p>
-        Our projects cover a broad range of time periods, genres, languages, and media, based on our members' wide-ranging interests.
-      </p>
-      <a href="{{ '/projects ' | url }}" class="btn btn-outline-dark">See our projects</a>
-    </div>
-  </div>
-  <div class="col-md-6 mt-3">
-    <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
-      <h2>Pamphlets</h2>
-      <p>
-        Our long-running pamphlet series has served as a model for digital humanities publication across the field of computational literary study.
-      </p>
-      <a href="{{ '/pamphlets ' | url }}" class="btn btn-outline-dark">Read our latest work</a>
-      </div>
-      </div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-<!-- for debug: {{ site | dump }} {{page | dump }} {{meta | dump}}-->
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>

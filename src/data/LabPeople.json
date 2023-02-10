@@ -3,6 +3,11 @@
 	"name": "Luca Abbattista",
 	"email": "luca.abbattista@gmail.com",
 	"status": "alumni"},
+	
+	{
+		"key":"radams",
+		"name":"Rebecca Adams"
+	},
 
 	{
 		"key":"malgeehewitt",
@@ -162,6 +167,10 @@
 	"name":"Svenja Guhr",
 	"status": "collaborator",
 	"email": "svenja.guhr@tu-darmstadt.de"
+	},
+	{
+		"key":"chaberfield",
+		"name":"Catrin Haberfield"
 	},
 	{
 		"key":"shadi",

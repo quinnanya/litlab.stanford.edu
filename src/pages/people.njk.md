@@ -3,7 +3,7 @@ layout: base
 permalink: /people/
 eleventyNavigation:
   key: People
-  order: 2
+  order: 4
 ---
 
 ## People

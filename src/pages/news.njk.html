@@ -2,25 +2,24 @@
 layout: base
 eleventyNavigation:
   key: News
-  order: 7
+  order: 3
 pagination:
   data: collections.news
-  size: 20
+  size: 10
   alias: news
   reverse: true
-  permalink: "news/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
+  permalink: news/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}/
 ---
-
-{%- set comma = joiner(", ") -%}
-
 <h2>News</h2>
 
-  {%- for post in collections.news -%}
+  {%- for post in news -%}
 
       <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
 
-<p><em>{{ post.date | postDate}}</em></p>
+<p>{{ post.date | postDate}}</p>
+
+
       {% if post.data.teaser %}
-        <p>{{ post.data.teaser }}</p>
+        <p>{{ post.data.teaser }} <a href="{{ post.url | url }}">Read more.</a></p>
       {% endif %} 
-  {%- endfor -%}
+  {%- endfor -%} 

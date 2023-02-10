@@ -6,7 +6,7 @@
   permalink: "/bibliography/",
   eleventyNavigation: {
     key: "Bibliography",
-    order: "4"
+    order: "8"
   },
   pagination: {
     data: "collections.publications",
@@ -14,7 +14,7 @@
     alias: "publications",
     size: 100,
     before: function(paginationData, fullData) {
-      return paginationData.sort((a, b) => a.data.year - b.data.year);
+      return paginationData.sort((a, b) => a.data.author - b.data.author);
     }
   }
 }
