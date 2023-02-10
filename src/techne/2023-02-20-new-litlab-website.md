@@ -4,8 +4,7 @@ title: "A New LitLab Website"
 authors: [mwarner, qdombrowski]
 projects:
 date: 2023-02-20
-teaser: |
-  We're pleased to introduce the new website for the Stanford Literary Lab; it's the first overhaul of the site since 2015, and the first time the site has moved off of WordPress.
+teaser: "We're pleased to introduce the new website for the Stanford Literary Lab; it's the first overhaul of the site since 2015, and the first time the site has moved off of WordPress."
 ---
 
 We're pleased to introduce the new website for the Stanford Literary Lab; it's the first overhaul of the site since 2015, and the first time the site has moved off of WordPress.

@@ -10,7 +10,7 @@ date_updated: 2023-01-14
 start_date: 2021-02-01
 end_date:
 shortdesc: |
-  In this project, we leverage computational textual analysis to explore the background discourses of the human and the other in the extensive universe of the Star Wars nov
+  In this project, we leverage computational textual analysis to explore the background discourses of the human and the other in the extensive universe of the Star Wars novels.
   
 ---
 

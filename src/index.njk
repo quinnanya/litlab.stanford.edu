@@ -1,12 +1,24 @@
----
-meta:
-  lang: en
-  title: Stanford Literary Lab
-  image: "/assets/images/open-graph/teaser.jpeg"
-  description: "The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature."
-layout: base
-eleventyNavigation:
-  key: Home
+---js
+{
+  meta: {
+    lang: "en",
+    title: "Stanford Literary Lab",
+    image: "/assets/images/open-graph/teaser.jpeg",
+    description: "The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature."},
+  layout: "base",
+  title: "Stanford Literary Lab",
+  eleventyNavigation: {
+    key: "Home"},
+  pagination: {
+    data: "collections.posts",
+    reverse: true,
+    alias: "latest_posts",
+    size: 20,
+    before: function(paginationData, fullData) {
+      return paginationData.sort((a, b) => a.data.date - b.data.date);
+    }
+  }
+}
 ---
 
 
@@ -26,10 +38,10 @@ eleventyNavigation:
   <div class="col-md-6 mt-3">
     <div class="h-100 p-5 border rounded-3 frontbox" style="background-color: #9d1c32; color: #ffffff;">
       <h2>Updates</h2>
-	        {% set latest_posts = collections.posts %}
 	  {% for post in latest_posts.slice(0,3)|sort(false, true, 'post.data.date') %}
 	  
-	  <p><a href="{{ post.url | url }}">{{ post.data.title }}</a></p>
+	  <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+	  <p>{{post.teaser}}</p>
 	  {% endfor %}
       <a href="{{ '/news ' | url }}" class="btn btn-outline-dark">Read more updates</a>
       </div>

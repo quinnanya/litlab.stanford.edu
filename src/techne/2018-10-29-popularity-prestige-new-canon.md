@@ -4,8 +4,7 @@ title: "Popularity/Prestige: A New Canon"
 authors: [jporter]
 projects:
 date: 2018-10-29
-teaser: |
-  Shortly after the Lab released my recent pamphlet on the structure of the literary canon, New York magazine ran an article about the 21st century canon, in which a panel of judges pick an early version of the literary canon from the century so far.
+teaser: "Shortly after the Lab released my recent pamphlet on the structure of the literary canon, New York magazine ran an article about the 21st century canon, in which a panel of judges pick an early version of the literary canon from the century so far."
 ---
 
 Shortly after the Lab released my [recent pamphlet](https://litlab.stanford.edu/LiteraryLabPamphlet17.pdf) on the structure of the literary canon, *New York* magazine [ran an article](http://www.vulture.com/article/best-books-21st-century-so-far.html) about the 21st century canon, in which a panel of judges pick an early version of the literary canon from the century so far.[[1]](/pop-pres-ny/#_ftn1) The structure of their canon is a list, approximately 100 books published (mostly) since 2000---but I wondered how it would fare under the terms laid out in the pamphlet. How does the *New York* canon look when it comes to popularity and prestige?

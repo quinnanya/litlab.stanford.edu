@@ -4,12 +4,12 @@ permalink: /projects/short-stories/
 title: "Short stories"
 image: /assets/images/short_stories.jpg
 members: [malgeehewitt, amukamal, jporter]
-status: 'archive'
+status: 'active'
 date_updated: 2023-01-01
 start_date: 2019-03-01
 end_date: 2022-01-27
 shortdesc: |
-  Are short stories distinguishable beyond their length?
+  Are short stories distinguishable from novels?
 ---
 
 “Short Stories” is a collaboration between Mark Algee-Hewitt, Anna Mukamal, and J.D. Porter. This project turns to computational methods to investigate similarities and differences in thousands of short stories using features historically unavailable to literary scholars. We are interested in the formal differences between short stories and novels. Some guiding questions include: How does the language of the short story differ from that of the novel? How do short stories construct plots differently from longer narratives? Are the events of short stories the same as those of novels, or do short stories have their own logic of events? Do characters appear and serve the same functions in short stories as they do in novels? How does the form of the short story change as it develops in the periodical publications of the early twentieth century? 
