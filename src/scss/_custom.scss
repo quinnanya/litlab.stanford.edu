@@ -107,8 +107,9 @@ div.pamphlet {
 div.frontbox {
 	background-color: #9d1c32; 
 	color: #ffffff;
-	
-	a {
-		color: #000000;
-	}
 }
+
+.frontbox a {
+	color: #000000;
+	text-decoration:none;
+	}
