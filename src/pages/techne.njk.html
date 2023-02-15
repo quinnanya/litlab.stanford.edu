@@ -14,8 +14,8 @@ pagination:
 <h2>Techne</h2>
 
   {%- for post in techne -%}
-
-      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+<div class="post">
+      <h3 class="post"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
 
 <p><em>      {% for author in post.data.authors%}
   {% set author_loop = loop %}
@@ -28,5 +28,6 @@ pagination:
       {% if post.data.teaser %}
         <p>{{ post.data.teaser }} <a href="{{ post.url | url }}">Read more.</a></p>
       {% endif %} 
+  </div>
   {%- endfor -%} 
 

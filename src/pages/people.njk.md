@@ -16,10 +16,11 @@ eleventyNavigation:
 
 {% if "Director" in person.labtitle %}
 
-<tr><td><strong>{{person.labtitle}}</strong></td>
-	<td>{{person.name}}</td>
-	<td>{{person.email}}</td>
-</tr>
+<div class="labcore">
+<img src="{{person.photo}}" alt="image of {{person.name}}" />
+<h4 class="labname">{{person.name}}</h4>
+<p>{{person.bio}} {{person.name}} can be reached at {{person.email}}.</p>
+</div>
 {% endif %}
 {% endif %}
 {% endfor %}

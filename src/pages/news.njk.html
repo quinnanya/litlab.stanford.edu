@@ -13,13 +13,14 @@ pagination:
 <h2>News</h2>
 
   {%- for post in news -%}
+<div class="post">
+      <h3 class="post"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
 
-      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-
-<p>{{ post.date | postDate}}</p>
+<p><em>{{ post.date | postDate}}</em></p>
 
 
       {% if post.data.teaser %}
         <p>{{ post.data.teaser }} <a href="{{ post.url | url }}">Read more.</a></p>
-      {% endif %} 
+      {% endif %}
+  </div> 
   {%- endfor -%} 
