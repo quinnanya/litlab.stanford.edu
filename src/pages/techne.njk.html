@@ -27,7 +27,9 @@ pagination:
 
       {% if post.data.teaser %}
         <p>{{ post.data.teaser }} <a href="{{ post.url | url }}">Read more.</a></p>
-      {% endif %} 
+      {% endif %}
   </div>
-  {%- endfor -%} 
+  {%- endfor -%}
+
+  {% include "../includes/pagination.njk" %}
 
