@@ -125,7 +125,11 @@ div.labcore {
   }
 }
 
-
+div.labcore ~ table {
+  td:first-child {
+    width: 300px;
+  }
+}
 
 div.pamphlet {
 	display:block;
