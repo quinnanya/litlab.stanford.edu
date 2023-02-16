@@ -10,11 +10,11 @@
   },
   pagination: {
     data: "collections.publications",
-    reverse: true,
+    reverse: false,
     alias: "publications",
     size: 100,
     before: function(paginationData, fullData) {
-      return paginationData.sort((a, b) => a.data.author - b.data.author);
+      return paginationData.sort((a, b) => a.data.author.localeCompare(b.data.author));
     }
   }
 }
