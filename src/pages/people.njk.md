@@ -9,7 +9,6 @@ eleventyNavigation:
 ## People
 
 ### Lab Administration
-<table class="table">
 {%- for person in LabPeople -%}
 
 {% if person.labtitle %}
@@ -25,7 +24,6 @@ eleventyNavigation:
 {% endif %}
 {% endfor %}
 
-</table>
 
 ### Core Research Team
 
