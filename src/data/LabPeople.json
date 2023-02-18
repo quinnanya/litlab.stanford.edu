@@ -16,7 +16,7 @@
 		"status": "stanford",
 		"email": "malgeehe@stanford.edu",
 		"website": "http://markalgeehewitt.org/",
-		"bio": "Mark Algee-Hewitt’s research focuses on the eighteenth and early nineteenth centuries in England and Germany and seeks to combine literary criticism with digital and quantitative analyses of literary texts. In particular he is interested in the history of aesthetic theory and the development and transmission of aesthetic and philosophic concepts during the Enlightenment and Romantic periods. He is also interested in the relationship between aesthetic theory and the poetry of the long eighteenth century. His current book project, *The Afterlife of the Sublime*, explores the history of the sublime by tracing its discursive patterns through over 11,000 texts from the long eighteenth century, seeking clues to the disappearance of the term at the end of the Romantic period.",
+		"bio": "Mark Algee-Hewitt’s research focuses on the eighteenth and early nineteenth centuries in England and Germany and seeks to combine literary criticism with digital and quantitative analyses of literary texts. In particular he is interested in the history of aesthetic theory and the development and transmission of aesthetic and philosophic concepts during the Enlightenment and Romantic periods. He is also interested in the relationship between aesthetic theory and the poetry of the long eighteenth century.",
 		"photo":"/assets/images/people/malgeehewitt.jpg"
 	},
 	{
@@ -271,7 +271,7 @@
 		"name":"Charlotte Lindemann",
 		"labtitle":"Core Research Team",
 		"email": "cilindem@stanford.edu",
-		"bio": "Charlotte Lindemann comes from New York. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in pellentesque turpis, vitae tempor justo. Quisque ornare volutpat turpis, eget pellentesque purus scelerisque ut. Fusce dapibus, lectus sed posuere pulvinar, ipsum tellus feugiat nisl, at mollis mauris lorem vel velit. Cras gravida urna id malesuada viverra. Fusce dapibus ipsum a magna tincidunt, non hendrerit diam interdum. Morbi efficitur elit non ante dapibus facilisis. Pellentesque vel rhoncus tortor. Aliquam at augue augue. Ut dignissim mi vitae dui ornare volutpat vitae ut sapien.",
+		"bio": "Charlotte Lindemann comes from New York. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in pellentesque turpis, vitae tempor justo. Quisque ornare volutpat turpis, eget pellentesque purus scelerisque ut. Fusce dapibus, lectus sed posuere pulvinar, ipsum tellus feugiat nisl, at mollis mauris lorem vel velit.",
 		"photo":"/assets/images/people/clindemann.jpg"
 	},
 	{
