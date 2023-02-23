@@ -322,8 +322,9 @@
 	{
 		"key":"amukamal",
 		"name":"Anna Mukamal",
-		"status":"alumni",
-		"affiliation": "Coastal Carolina University"
+		"status":"collaborator",
+		"affiliation": "Coastal Carolina University",
+		"email": "amukamal@coastal.edu"
 	},
 	{
 		"key":"fmuzny",
