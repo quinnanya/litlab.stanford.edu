@@ -37,24 +37,24 @@ layout: base
       {% if members %}
       <p class="card-text"><strong>Project team: </strong>
         {%-for member in members-%}
-        {%-for person in LabPeople-%}
-        {%-if member == person.key-%}
-        {{-comma()-}}{{-person.name-}}
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
+        
+		
+		
+	{%- for person in LabPeople -%}
+	    {%- if member == person.key -%}
+	{{- person.name -}}{{ ", " if not author_loop.last }}{% endif %}{% endfor %}{% endfor %};
+	
         {% endif %}
       </p>
 	  
       {% if collaborators %}
       <p class="card-text"><strong>Collaborators: </strong>
         {%-for collaborator in collaborators-%}
-        {%-for person in LabPeople-%}
-        {%-if member == person.key-%}
-        {{-comma()-}}{{-person.name-}}
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
+		
+		{%- for person in LabPeople -%}
+		    {%- if collaborator == person.key -%}
+		{{- person.name -}}{{ ", " if not author_loop.last }}{% endif %}{% endfor %}{% endfor %};
+		
         {% endif %}
       </p>
 	  
