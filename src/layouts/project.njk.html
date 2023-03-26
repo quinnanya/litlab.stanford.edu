@@ -80,6 +80,16 @@ layout: base
 	  {% endif %}
 	  {% endfor %}
 	  {% endfor %}
+
+    {% set publications = collections.publications | filterCollectionByProject(key) %}
+    {% if publications.length %}
+      <strong>Publications</strong>
+      <ul>
+        {% for publication in publications %}
+          <li>{{publication.data.title}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
     </div>
   </div>
  
