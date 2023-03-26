@@ -2,7 +2,7 @@
 {
   layout: "base",
   title: "Pamphlets",
-  permalink: "/pamphlets/",
+  permalink: "pamphlets/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}",
   eleventyNavigation: {
     key: "Pamphlets",
     order: "6"

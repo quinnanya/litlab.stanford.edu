@@ -2,7 +2,7 @@
 {
   layout: "base",
   title: "Project Archive",
-  permalink: "projects/archive/",
+  permalink: "projects/archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}",
   pagination: {
     data: "collections.projects",
     reverse: true,

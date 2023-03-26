@@ -3,7 +3,7 @@
   layout: "base",
   templateEngineOverride: "liquid",
   title: "Bibliography",
-  permalink: "/bibliography/",
+  permalink: "bibliography/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endif %}",
   eleventyNavigation: {
     key: "Bibliography",
     order: "8"

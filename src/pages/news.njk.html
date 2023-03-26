@@ -1,5 +1,6 @@
 ---
 layout: base
+permalink: "news/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 eleventyNavigation:
   key: News
   order: 3
@@ -8,7 +9,6 @@ pagination:
   size: 10
   alias: news
   reverse: true
-  permalink: news/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}/
 ---
 <h2>News</h2>
 
