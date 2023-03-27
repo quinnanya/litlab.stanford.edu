@@ -122,6 +122,10 @@ eleventyConfig.addFilter("numericDate", (dateObj) => {
   eleventyConfig.addPairedShortcode("bibtex", require('eleventy-plugin-bibtex'));
   
 
+  eleventyConfig.addFilter("filterCollectionByProject", (collection, project) =>
+    collection.filter((item) => item.data.project == project)
+  );
+
   // Base Config
   return {
     dir: {
